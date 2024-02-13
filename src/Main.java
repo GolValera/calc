@@ -46,8 +46,8 @@ public class Main {
     public static void main(String[] args) throws Exception {
         while (true) {
             try {
-                Scanner consoleInput = new Scanner(System.in);
                 System.out.print("Введите арифметическую операцию");
+                Scanner consoleInput = new Scanner(System.in);
                 String expression = consoleInput.nextLine();
                 if (expression.equalsIgnoreCase("STOP")) {
                     return;
